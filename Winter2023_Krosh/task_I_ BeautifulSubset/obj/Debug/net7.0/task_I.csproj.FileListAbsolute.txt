@@ -1,0 +1,15 @@
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.csproj.AssemblyReference.cache
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.AssemblyInfoInputs.cache
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.AssemblyInfo.cs
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.csproj.CoreCompileInputs.cache
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/bin/Debug/net7.0/task_I
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/bin/Debug/net7.0/task_I.deps.json
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/bin/Debug/net7.0/task_I.runtimeconfig.json
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/bin/Debug/net7.0/task_I.dll
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/bin/Debug/net7.0/task_I.pdb
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.dll
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/refint/task_I.dll
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.pdb
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/task_I.genruntimeconfig.cache
+/Users/deniskolmykov/Desktop/Обучение/ codeforces/Winter2023_Krosh/task_I/obj/Debug/net7.0/ref/task_I.dll
