@@ -9,7 +9,7 @@
 
 // для n=10 и k=2 красивых подмножеств = 31
 
-int GetGcd(int[] arr) //метод для нахлждения НОД
+int GetGcd(int[] arr) //метод для нахождения НОД
 {
     int numberA = 0;
     int numberB = 0;
@@ -85,7 +85,7 @@ double CreateArrayAndCountGcd(int n, int k)
         {
             //Console.WriteLine(string.Join(" ", arr));
             count++;
-            gcd = Gcd(arr);
+            gcd = GetGcd(arr);
             if (gcd == 1)
             {
                 countBunch++;
