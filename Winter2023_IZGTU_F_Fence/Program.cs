@@ -44,7 +44,7 @@ int[,] FillArraySegmetsTypeQuantity(int row)
     for (int i = 0; i < row; i++)
     {
         Console.Write($"Введите количество отрезков {i + 1}-го типа: ");
-        arraySegmetsTypeQuantity[i, 0] = i + 1;
+        arraySegmetsTypeQuantity[i, 0] = i + 1; // хранить тип отрезков (строка 47) в принципе не обязательно, так как храним их по порядку, просто записывать индексы и в ответе к ним + 1. Либо сразу задать type1,2,3,4 = 1, 2, 3, 4.
         arraySegmetsTypeQuantity[i, 1] = int.Parse(Console.ReadLine()!);
     }
     Console.WriteLine();
@@ -71,7 +71,7 @@ int countSegmentType = 4; // количество типов отрезков
 int[,] segmetsTypeQuantity = new int[countSegmentType, 2]; // массив для количества отрезков каждого типа
 segmetsTypeQuantity = FillArraySegmetsTypeQuantity(countSegmentType);
 
-int n1 = segmetsTypeQuantity[0, 1];
+int n1 = segmetsTypeQuantity[0, 1]; // В 74-77 идут n1-n4, можно было массив заранее совсем и не создавать.
 int n2 = segmetsTypeQuantity[1, 1];
 int n3 = segmetsTypeQuantity[2, 1];
 int n4 = segmetsTypeQuantity[3, 1];
@@ -161,7 +161,7 @@ else
     for (int i = 0; i < 8; i++)
     {
         if (arrCombinationOfSegments[i] > 0)
-        {
+        {                   // Сроки 166-174 можно заменить на одну j = i % 4;точнее % countSegmentType
             int j = 0;
             if (i > 3)
             {

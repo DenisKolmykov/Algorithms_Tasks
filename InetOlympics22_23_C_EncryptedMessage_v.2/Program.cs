@@ -111,13 +111,17 @@ void PrintWordsAndCount(string finalMessage)
         Console.WriteLine(finalWords[i]);
 }
 
-
+DateTime dt = DateTime.Now;
 //Console.Clear();
 
-Console.Write("Inter encrypted message (string without space): ");
-string encryptedMessage = Console.ReadLine()!;
+// Console.Write("Inter encrypted message (string without space): ");
+// string encryptedMessage = Console.ReadLine()!;
+
+string encryptedMessage = "xaabaababaaabxaa";
 
 //Console.WriteLine(encryptedMessage);
 string finalMessage = GetFinalMessage(encryptedMessage);
 
 PrintWordsAndCount(finalMessage);
+
+Console.WriteLine(DateTime.Now - dt);
